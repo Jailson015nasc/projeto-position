@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .relative{
+            position: relative;
+            width: 400px;
+            height: 200px;
+            border: 4px solid #f00;
+        }
+        .absolute{
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            bottom: 200px;
+            width: 200px;
+            height: 90px;
+            border: 4px solid #0f0;
+        }
+    
+    </style>
+
+</head>
+<body>
+    <h1>Position absolute</h1>
+    <p>Um elemento com posição absoluta, é um
+        posicionado em relação ao elemento pai.
+        sendo assim, o elemento será mais proximo
+        a janela de visualização. 
+    </p>
+    <!--DIV PAI-->  
+    <div class="relative">
+    Esse elemento div tem posição relativa
+        <!--DIV FILHA-->  
+        <div class="absolute">
+             Esse elemento div tem posição absoluta
+    </div>
+</body>
+</html>
